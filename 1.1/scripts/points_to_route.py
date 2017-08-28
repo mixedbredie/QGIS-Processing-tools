@@ -14,7 +14,7 @@ from qgis.core import *
 from qgis.gui import *
 from qgis.networkanalysis import *
 
-from processing.core.VectorWriter import VectorWriter
+from processing.tools.vector import VectorWriter
 
 
 point_layer = processing.getObject(points)

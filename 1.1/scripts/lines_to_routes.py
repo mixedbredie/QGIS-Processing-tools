@@ -15,7 +15,7 @@ from qgis.core import *
 from qgis.gui import *
 from qgis.networkanalysis import *
 
-from processing.core.VectorWriter import VectorWriter
+from processing.tools.vector import VectorWriter
 
 line_layer = processing.getObject(lines)
 line_id_field_index = line_layer.fieldNameIndex(line_id_field)

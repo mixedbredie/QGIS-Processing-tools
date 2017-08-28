@@ -13,7 +13,7 @@
 #==================================
 from qgis.core import *
 from PyQt4.QtCore import *
-from processing.core.VectorWriter import VectorWriter
+from processing.tools.vector import VectorWriter
 import processing 
 from scipy.spatial.distance import cdist
 import numpy as np
